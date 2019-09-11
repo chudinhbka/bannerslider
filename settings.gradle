@@ -1,0 +1,2 @@
+include ':app', ':bannerslider'
+rootProject.name='Dinhcv'
