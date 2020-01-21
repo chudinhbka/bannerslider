@@ -7,7 +7,7 @@ Banner slider is an easy to use library for making beautiful sliders in your and
 ### Gradle
 add this line to your module build.gradle dependecies block:
 
-    implementation 'com.github.chudinhbka:bannerslider:1.0.1'
+    implementation 'com.github.chudinhbka:bannerslider:1.0.2'
 
 
 ## How use this library
