@@ -131,7 +131,6 @@ class SlideIndicatorsGroup extends LinearLayout implements OnSlideChangeListener
 
     @Override
     public void onSlideChange(int selectedSlidePosition) {
-        Log.i(TAG, "onSlideChange: "+selectedSlidePosition);
         for (int i = 0; i < indicatorShapes.size(); i++) {
             if (i == selectedSlidePosition) {
                 indicatorShapes.get(i).onCheckedChange(true);
